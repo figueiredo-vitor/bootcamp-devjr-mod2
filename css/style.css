@@ -29,10 +29,71 @@ body {
     margin-bottom: 15px;
 }
 
+.header-paragrph {
+    color: #626970;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.header-column {
+    color: #F5F5F5;
+    margin-bottom: 15px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 900;
+}
 
 .flex-container {
     display: flex;
-    background-color: #336666;
     justify-content:space-around;
+}
+
+.column1 {
+    background-color: #336666;
+    width: 50%;
     padding: 20px;
+    color: #FFFFFF;
+}
+
+.column2 {
+    background-color: #58afb8;
+    width:  50%;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.subscription-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.month {
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+.button {
+    width: 100%;
+    margin-top:  20px;
+    padding: 15px 32px;
+    color: #58afb8;
+    background-color: #CCCCCC;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #E9E9E9;
 }
