@@ -2,6 +2,27 @@ body {
     background-color: #F5F5F5;
     font-family: 'Lato', sans-serif;
 }
+
+input {
+    width: 95%;
+    height: 22px;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #2a8b8b;
+}
+
+a {
+    color: #E9E9E9;
+    font-size: 0.8rem;
+}
+
 .container {
     background-color: #E9E9E9;
     margin: auto;
@@ -23,65 +44,10 @@ body {
 }
 
 .header-subtitle {
-    color: #58afb8;
+    color: #626970;
     font-size: 1.2063rem;
     font-weight: 500;
     margin-bottom: 0.9375rem;
-}
-
-.header-paragrph {
-    color: #626970;
-    font-size: 0.9375rem;
-    font-weight: 300;
-    margin-bottom: 0.9375rem;
-}
-
-.header-column {
-    color: #F5F5F5;
-    margin-bottom: 0.9375rem;
-}
-
-span {
-    font-size: 1.25rem;
-    font-weight: 900;
-}
-
-.flex-container {
-    display: flex;
-    justify-content:space-around;
-}
-
-.column1 {
-    background-color: #2a8b8b;
-    width: 50%;
-    padding: 1.25rem;
-    color: #FFFFFF;
-}
-
-.column2 {
-    background-color: #58afb8;
-    width:  50%;
-    padding: 0.625rem 1.25rem;
-    color: #FFFFFF;
-    font-size: 0.9375rem;
-}
-
-.subscription-title {
-    color: black;
-    font-size: 1.25rem;
-    text-align: center;
-    margin-bottom: 1.25rem;
-}
-
-.price {
-    font-size: 1.625rem;
-    font-weight: 700;
-}
-
-.month {
-    font-size: 0.9375rem;
-    font-style: italic;
-    margin-left: 0.9375rem;
 }
 
 button {
@@ -100,10 +66,15 @@ button:hover {
     background-color: #E9E9E9;
 }
 
-.image-group {
-    text-align: center;
-}
 
+.form-register {
+    background-color:#2a8b8b ;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
 
 @media screen and (max-width: 620px){
     html {
