@@ -12,37 +12,37 @@ body {
 }
 
 .header {
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .header-title {
     color: #2a8b8b;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 1.25rem;
 }
 
 .header-subtitle {
     color: #58afb8;
-    font-size: 20px;
+    font-size: 1.2063rem;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .header-paragrph {
     color: #626970;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .header-column {
     color: #F5F5F5;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 span {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 900;
 }
 
@@ -54,43 +54,43 @@ span {
 .column1 {
     background-color: #2a8b8b;
     width: 50%;
-    padding: 20px;
+    padding: 1.25rem;
     color: #FFFFFF;
 }
 
 .column2 {
     background-color: #58afb8;
     width:  50%;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .subscription-title {
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .price {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 700;
 }
 
 .month {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: italic;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 .button {
     width: 100%;
-    margin-top:  20px;
-    padding: 15px 32px;
+    margin-top:  1.25rem;
+    padding: 0.9375rem 2rem;
     color: #58afb8;
     background-color: #CCCCCC;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -102,4 +102,24 @@ span {
 
 .image-group {
     text-align: center;
+}
+
+
+@media screen and (max-width: 620px){
+    html {
+        font-size: 14px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .column1, .column2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 95%;
+    }
 }
